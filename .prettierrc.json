@@ -7,5 +7,6 @@
   "arrowParens": "always",
   "printWidth": 140,
   "useTabs": false,
-  "proseWrap": "always"
+  "proseWrap": "always",
+  "endOfLine": "auto"
 }

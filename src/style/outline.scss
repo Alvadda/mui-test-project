@@ -1,0 +1,16 @@
+.outline {
+  display: grid;
+  grid-template:
+    'page' 9fr
+    'footer' 1fr;
+
+  height: 100vh;
+}
+
+.page {
+  grid-area: page;
+}
+
+.footer {
+  grid-area: footer;
+}

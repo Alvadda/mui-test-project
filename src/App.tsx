@@ -1,5 +1,14 @@
-import './style/style.scss'
+import CssBaseline from '@mui/material/CssBaseline'
+import { LocalizationProvider } from '@mui/lab'
+import AdapterMoment from '@mui/lab/AdapterMoment'
+
+import Outline from './Outline'
 
 export const App = () => {
-  return <h1>React TypeScript Template</h1>
+  return (
+    <LocalizationProvider dateAdapter={AdapterMoment}>
+      <CssBaseline />
+      <Outline />
+    </LocalizationProvider>
+  )
 }
